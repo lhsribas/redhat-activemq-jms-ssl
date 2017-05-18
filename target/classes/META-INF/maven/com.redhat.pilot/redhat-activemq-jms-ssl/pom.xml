@@ -20,6 +20,14 @@
 	<packaging>jar</packaging>
 
 	<name>ActiveMQ6 JMS SSL Enabled Example</name>
+	
+	<properties>
+	
+		<!-- maven-compiler-plugin -->
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		
+	</properties>
 
 	<dependencies>
 		
